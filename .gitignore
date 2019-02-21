@@ -1,0 +1,4 @@
+.ipynb_checkpoints/fastai_acan-checkpoint.ipynb
+data/wikiart/train
+data/wikiart/test
+data/wikiart/train_labels.ods
