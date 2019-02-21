@@ -29,4 +29,4 @@ tar -xvf train.tgz
 ```
 
 ## Label Data with Attributes
-Example attribute data has been supplied for four examples in [all_domain.csv](data/all_domain.csv). For best results, modify all_domain.csv and label more images with attributes.
+Example category data is provided in [labels.csv](data/wikiart/labels.csv).
