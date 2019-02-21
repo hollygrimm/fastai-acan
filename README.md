@@ -23,7 +23,7 @@ pip install fastai --upgrade
 download test.tgz and train.tgz from [https://github.com/zo7/painter-by-numbers/releases/tag/data-v1.0](https://github.com/zo7/painter-by-numbers/releases/tag/data-v1.0)
 
 ```
-cd data
+cd data/wikiart
 tar -xvf test.tgz
 tar -xvf train.tgz
 ```
