@@ -1,6 +1,6 @@
-# ResNet50 on Art Composition Attributes
+# fastai ResNet34 Sample Project
 
-Fine-tunes a ResNet50 (pretrained on imagenet) network by training on WikiArt images labeled with eight art composition attributes. This is a Fast.ai version of [https://github.com/hollygrimm/art-composition-cnn](https://github.com/hollygrimm/art-composition-cnn)
+Fine-tunes a ResNet34 (pretrained on imagenet) network by training on dog and dingo images
 
 ## Requirements
 * fastai
@@ -19,14 +19,16 @@ conda install -c fastai fastai pytorch torchvision jupyter
 pip install fastai --upgrade
 ```
 
-### Download Dataset
-download test.tgz and train.tgz from [https://github.com/zo7/painter-by-numbers/releases/tag/data-v1.0](https://github.com/zo7/painter-by-numbers/releases/tag/data-v1.0)
+### Create Dataset
+Create dog and dingo folders under data/dog/folder and add images to these folders.
+
+To use google_images_download to get images
+install chromedriver https://sites.google.com/a/chromium.org/chromedriver/downloads then googleimagesdownload:
+
+
 
 ```
-cd data/wikiart
-tar -xvf test.tgz
-tar -xvf train.tgz
+pip install google_images_download
+googleimagesdownload -k "dingo" -s medium -l 500 -o fastai-dingo/data/dog/train -i dingo -cd ~/chromedriver
+googleimagesdownload -k "dog" -s medium -l 500 -o fastai-dingo/data/dog/train -i dog -cd ~/chromedriver
 ```
-
-## Label Data with Attributes
-Example category data is provided in [labels.csv](data/wikiart/labels.csv).
