@@ -1,4 +1,6 @@
-.ipynb_checkpoints/fastai_acan-checkpoint.ipynb
+.ipynb_checkpoints
 data/wikiart/train
 data/wikiart/test
 data/wikiart/train_labels.ods
+data/dog/train/dingo
+data/dog/train/dog
