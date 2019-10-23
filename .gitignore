@@ -4,3 +4,4 @@ data/wikiart/test
 data/wikiart/train_labels.ods
 data/dog/train/dingo
 data/dog/train/dog
+.vscode/settings.json
